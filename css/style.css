@@ -1,0 +1,143 @@
+/* left page */
+
+#left-page {
+  float: left;
+  width: 50%;
+  position: fixed;
+  background-image: url(../images/student.jpg);
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+#content-left {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+}
+
+#logo {
+  background-image: url(../images/onews.svg);
+  width: 40px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#bloc1-left {
+  display: flex;
+  flex-direction: row;
+}
+
+#bloc1-left h1 {
+  position: relative;
+  max-width: 30%;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-left: 0.4em;
+  top: -5px;
+}
+
+#bloc2-left {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+  margin-left: 30%;
+}
+
+#bloc2-left h2 {
+  font-size: 2em;
+}
+
+#bloc2-left span {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 0.6em;
+}
+
+#bloc3-left {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#bloc3-left span a {
+  padding-left: 1em;
+  text-decoration: none;
+  color: white;
+}
+
+#bloc3-left span a:hover {
+  font-style: italic;
+}
+
+/* right page */
+
+#right-page {
+  float: right;
+  width: 50%;
+}
+
+#articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 50%;
+  border: 1px solid lightgrey;
+  padding: 2em;
+}
+
+#title-right-page {
+  background-color: rgb(236, 235, 235);
+  width: 100%;
+  padding: 1em 0em 1em 1.4em;
+  margin: 0;
+}
+
+.articles-button {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em;
+  border-radius: 10%;
+  background-color: #96DE5A;
+  display: inline-block;
+  font-size: 0.7em;
+  color: white;
+}
+
+.team {
+  background-color: #DE5D4F
+}
+
+.work {
+  background-color: #0061F4
+}
+
+.box h3 {
+  font-size: 1.3em;
+  line-height: 1em;
+  padding-bottom: 1em;
+}
+
+.box a {
+  font-weight: bold;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 0.7em;
+  padding-bottom: 2em;
+}
+
+.author span {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.author img {
+  width: 1.5em;
+}
